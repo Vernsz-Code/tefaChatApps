@@ -1,0 +1,8 @@
+
+        <div id="container-chat" className="flex flex-wrap p-3 mb-3 text-white backdrop-brightness-0 transition-all rounded-md hover:bg-[#6681bc]">
+            <div className="w-[100%] flex flex-wrap">
+                <Avatar size="md"/>
+                <span id="username" className='mt-2 ml-4'>Lorem Ipsum</span>
+            </div>
+            <span id="lastmassage" className='text-sm mt-3'>{messagetest >= messagetest.slice(0,40)? messagetest.slice(0,40) + "..." : messagetest}</span>
+        </div>
